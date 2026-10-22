@@ -13,6 +13,7 @@ def increment_x():
 def multiplyer():
     global factor
     factor += 1
+    tk.Label(root, text=f"Multiplier: {factor}").pack()
 
   
 root = tk.Tk()
