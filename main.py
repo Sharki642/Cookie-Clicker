@@ -8,12 +8,11 @@ factor = 1;
 def increment_x():
     global x
     x += 1*factor
-    value_label.config(text=f"Cookies: {x}")
+    value_label.config(text=f"Cookies: {x}, Factor: {factor}")
 
 def multiplyer():
     global factor
     factor += 1
-    tk.Label(root, text=f"Multiplier: {factor}").pack()
 
   
 root = tk.Tk()
